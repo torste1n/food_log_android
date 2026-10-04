@@ -9,7 +9,7 @@ connection. It runs in Firefox and in Chrome.
 
 ## Install
 
-1. Open the app's address on the Android phone. (https://github.com/torste1n/food_log_android/)
+1. Open the app's address on the Android phone. (https://torste1n.github.io/food_log_android/)
 2. In Firefox: three-dot menu, then "Add app to Home screen" (or "Install").
    In Chrome: three-dot menu, then "Install app", or use the Install button under Settings.
 3. Open it from the home screen from then on.
