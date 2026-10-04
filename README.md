@@ -18,9 +18,10 @@ connection. It runs in Firefox and in Chrome.
 
 - Log a food with amount (grams or pieces), meal, where it came from, date, time and a note.
 - Times are on a 24-hour clock, with no AM or PM.
-- How the day went: a pain slider from 0 to 10 with a note, a Period checkbox (which can
-  be switched off under Settings), and an Exercise checkbox with an intensity slider and
-  a note. All of it is included in the Excel file.
+- The Today screen has four boxes: Food, Exercise (with an intensity slider and a note),
+  Period (with a pain slider and a note) and General condition (a slider from 0, bad, to
+  10, good, and a note). Under Settings each box can be switched off or moved, and what
+  is shown is included in the Excel file.
 - Saved foods with a portion size, favourites, and saved meals logged with one tap.
 - Export: asks "Do you want to generate a file?", then the number of days, and makes an
   Excel file with three sheets: the food log, a row per day, and a row per source.
