@@ -2,7 +2,7 @@
 // connection. Raise VERSION whenever any file below changes; the phone then fetches the
 // new files the next time the app is opened online, and uses them from the launch after.
 
-const VERSION = "3";
+const VERSION = "4";
 const PREFIX = "foodlog-android-";      // other apps at the same address keep their own caches
 const CACHE = `${PREFIX}v${VERSION}`;
 const FILES = [
