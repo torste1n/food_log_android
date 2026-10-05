@@ -18,14 +18,16 @@ connection. It runs in Firefox and in Chrome.
 
 - Log a food with amount (grams or pieces), meal, where it came from, date, time and a note.
 - Times are on a 24-hour clock, with no AM or PM.
-- The Today screen has four boxes: Food, Exercise (with an intensity slider and a note),
-  Period (with a pain slider and a note) and General condition (a slider from 0, bad, to
-  10, good, and a note). Under Settings each box can be switched off or moved, and what
-  is shown is included in the Excel file.
+- The Today screen has seven boxes: Food, Exercise (with an intensity slider and a note),
+  Period (with a pain slider and a note), General condition (a slider from 0, bad, to
+  10, good, and a note), Bloating (with a severity slider and a note), Contaminated (with
+  a time and a note) and Ring (with the date of its next removal). Under Settings each
+  box can be switched off or moved, and what is shown is included in the Excel file.
 - Saved foods with a portion size, favourites, and saved meals logged with one tap.
 - Export: asks "Do you want to generate a file?", then the number of days, and makes an
   Excel file with three sheets: the food log, a row per day, and a row per source.
-- History charts, in-app reminders for meals not logged, and a backup file that restores
+- History with days logged, the logging streak and the days since each box was last
+  ticked, in-app reminders for meals not logged, and a backup file that restores
   the whole app. A backup from the iPhone version can be restored here, and the reverse.
 - The back button closes an open form instead of leaving the screen.
 
@@ -38,6 +40,6 @@ host is the browser checking for a newer version of the app.
 ## Files
 
 `index.html`, `styles.css` and `app.js` are the screens; `db.js` is the storage;
-`charts.js` the history charts; `xlsx.js` and `export.js` write the Excel file; `sw.js`
+`xlsx.js` and `export.js` write the Excel file; `sw.js`
 keeps the app available offline. Open `tests.html` to run the app's own checks.
 After changing any file, raise `VERSION` in `sw.js` so phones pick up the change.
